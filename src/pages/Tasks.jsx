@@ -41,7 +41,7 @@ const Tasks = () => {
         <div className="grid grid-cols-3 gap-5 mt-10">
           <div className="relative h-[800px] overflow-auto">
             <div className="flex sticky top-0 justify-between bg-[#D3DDF9] p-5 rounded-md mb-3">
-              <h1>Up Next</h1>
+              <h1 className="font-bold">To Do</h1>
               <p className="bg-primary text-white w-6 h-6 grid place-content-center rounded-md">
                 0
               </p>
@@ -52,7 +52,7 @@ const Tasks = () => {
           </div>
           <div className="relative h-[800px] overflow-auto">
             <div className="flex sticky top-0 justify-between bg-[#D3DDF9] p-5 rounded-md mb-3">
-              <h1>In Progress</h1>
+              <h1 className="font-bold">Doing</h1>
               <p className="bg-primary text-white w-6 h-6 grid place-content-center rounded-md">
                 0
               </p>
@@ -64,7 +64,7 @@ const Tasks = () => {
           </div>
           <div className="relative h-[800px] overflow-auto">
             <div className="flex sticky top-0 justify-between bg-[#D3DDF9] p-5 rounded-md mb-3">
-              <h1>Up Next</h1>
+              <h1 className="font-bold">Done</h1>
               <p className="bg-primary text-white w-6 h-6 grid place-content-center rounded-md">
                 0
               </p>
